@@ -1,4 +1,4 @@
-// Import the button component you created earlier
+
 import Button from "./Button"; 
 
 function ProductCard({ image, name, price }) {
@@ -11,7 +11,7 @@ function ProductCard({ image, name, price }) {
         padding: "15px",
         textAlign: "center",
         backgroundColor: "#fafafa",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.05)" // Optional: minor depth boost
+        boxShadow: "0 4px 6px rgba(0,0,0,0.05)" 
       }}
     >
       <img
@@ -38,7 +38,6 @@ function ProductCard({ image, name, price }) {
         KSh {price}
       </p>
 
-      {/* Reusing your project's custom Button component */}
       <Button text="View Product" />
     </div>
   );

@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductCard from "./components/ProductCard";
 import About from "./components/About";
+import DateTimeDisplay from "./components/DateTimeDisplay.jsx"
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       <Message />
       <Student />
       <ListGroup />
+      <div>
+        <DateTimeDisplay />
+      </div>
       <Commerce />
 
       <Profile

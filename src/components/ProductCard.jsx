@@ -11,7 +11,7 @@ function ProductCard({ image, name, price }) {
         padding: "15px",
         textAlign: "center",
         backgroundColor: "#fafafa",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.05)" 
+        boxShadow: "0 4px 6px rgba(66, 5, 50, 0.05)" 
       }}
     >
       <img

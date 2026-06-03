@@ -7,11 +7,13 @@ import Button from "./components/Button";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductCard from "./components/ProductCard";
+import About from "./components/About";
 
 function App() {
   return (
     <div>
       <Navbar />
+      <About />
 
       <Message />
       <Student />

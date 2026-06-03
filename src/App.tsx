@@ -9,16 +9,20 @@ import Footer from "./components/Footer";
 import ProductCard from "./components/ProductCard";
 import About from "./components/About";
 import DateTimeDisplay from "./components/DateTimeDisplay.jsx"
+import Counter from "./components/Counter";
+import LoginStatus from "./components/LoginStatus";
 
 function App() {
   return (
     <div>
       <Navbar />
       <About />
+      <LoginStatus />
 
       <Message />
       <Student />
       <ListGroup />
+      <Counter />
       <div>
         <DateTimeDisplay />
       </div>

@@ -1,3 +1,5 @@
+{/*Create a mini e-commerce homepage using React components. */}
+
 function Commerce() {
   return (
     <div

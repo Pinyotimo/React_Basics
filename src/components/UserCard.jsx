@@ -1,7 +1,4 @@
-{/*Create a UserCard component using props:
-Username
-Email
-Phone number */}
+
 
 import React from "react";
 

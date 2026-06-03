@@ -1,3 +1,5 @@
+{/*Create a Footer component displaying copyright information. */}
+
 
 function Footer() {
     return (

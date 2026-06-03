@@ -32,7 +32,7 @@ function About() {
       <p
         style={{
           fontSize: "1.2rem",
-          color: "#555",
+          color: "#410873",
           lineHeight: "1.6",
         }}
       >

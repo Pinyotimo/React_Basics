@@ -1,3 +1,5 @@
+{/*Create a component that displays today's date and time. */}
+
 import React, { useState, useEffect } from "react";
 
 function DateTimeDisplay() {

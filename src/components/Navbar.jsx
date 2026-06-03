@@ -1,4 +1,7 @@
-
+{/*Create a Navbar component containing:
+Home
+About
+Contact */}
 
 function Navbar() {
     return (

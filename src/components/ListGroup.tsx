@@ -1,3 +1,5 @@
+{/*Create a component that displays a list of students from an array.*/}
+
 function ListGroup() {
   const students = [
     'Steve',

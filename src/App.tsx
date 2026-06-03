@@ -8,9 +8,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductCard from "./components/ProductCard";
 import About from "./components/About";
-import DateTimeDisplay from "./components/DateTimeDisplay.jsx"
+import DateTimeDisplay from "./components/DateTimeDisplay.jsx";
 import Counter from "./components/Counter";
 import LoginStatus from "./components/LoginStatus";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
@@ -102,6 +103,18 @@ function App() {
           price="37,000"
         />
       </div>
+
+      <UserCard 
+            username="Steve Oduor"
+            email="steveotieno2012005@gmail.com"
+            phone="+254 769 493 697"
+      />
+
+      <UserCard 
+            username="Steve Oduor"
+            email="steveotieno2012005@gmail.com"
+            phone="+254 769 493 697"
+      />
 
       <Footer />
     </div>
